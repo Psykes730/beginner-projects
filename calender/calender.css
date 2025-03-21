@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    background-color: slateblue;
+}
+
+.calender{
+    background-color: whitesmoke;
+    box-shadow:  0 4px 8px rgba(0,0,0,.3);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.month{
+    margin: 0;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.day{
+    font-size: 20px;
+    color: darkgray;
+}
+.date{
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+.year{
+    margin: 20px 0;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+}

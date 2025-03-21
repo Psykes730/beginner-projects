@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <img src="svg/angle-left.svg" alt="left">
+                </div>
+                <div class="circle">
+                    <img src="svg/bars.svg" alt="left">
+                </div>
+            </nav>
+            <img src="music-images/eye.jpg" class="song-img" alt="song-img">
+            <h1>Feels Good</h1>
+            <p>Mase</p>
+
+            <audio id="song">
+                <source src="music-images/Feel So Good - Mase.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div>
+                    <img src="svg/backward.svg" alt="backward" class="fa-play">
+                </div>
+                <div onclick="playPause()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" class="fa-play" id="ctrlIcon"/></svg>
+                </div>
+                <div>
+                    <img src="svg/forward.svg" alt="forward">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="music.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.addbtn{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(120, 233, 120);
+    border: none;
+    border-radius: 5px;
+}
+.deletebtn{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(175, 36, 36);
+    border: none;
+    border-radius: 5px;
+}
+.list,
+.input-grid{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+}
+.list div{
+    margin: 10px;
+}

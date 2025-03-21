@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.container{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid silver;
+    background: transparent;
+    cursor: pointer;
+    margin: 5px;
+}
+.container button:hover{
+    transform: scale(110%);
+    transition: .3s;
+}
+.container button img{
+    width: 40px;
+}
+.move-icon{
+    width: 25px;
+}
+.results{
+    font-size: 35px;
+    font-weight: 500;
+}
