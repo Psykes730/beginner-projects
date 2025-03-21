@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h3{
+    font-size: 30px;
+    color: red;
+}
+.container p{
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+button{
+    padding: 10px;
+    font-family: cursive;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+}
+button:hover{
+    transform: scale(90%);
+}
+.start{
+    background-color: green;
+    border: none;
+    color: white;
+}
+.pause{
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.reset{
+    border: none;
+    background-color: red;
+}
